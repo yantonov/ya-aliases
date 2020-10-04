@@ -1,0 +1,4 @@
+executable="${YA_HOME}/ya"
+
+[alias]
+idea="!idea.sh \"$@\""
