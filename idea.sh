@@ -2,7 +2,11 @@
 
 PROJECT_NAME="$(basename $(pwd))"
 
-PROJECT_DIR="${HOME}/projects/${PROJECT_NAME}"
+PROJECTS="${HOME}/projects"
+
+mkdir -p ${PROJECTS}
+
+PROJECT_DIR="${PROJECTS}/${PROJECT_NAME}"
 
 start_time="$(date +%s)"
 
